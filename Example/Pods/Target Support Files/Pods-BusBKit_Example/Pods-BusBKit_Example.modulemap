@@ -1,0 +1,6 @@
+framework module Pods_BusBKit_Example {
+  umbrella header "Pods-BusBKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

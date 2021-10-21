@@ -1,0 +1,6 @@
+framework module YakerKit {
+  umbrella header "YakerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

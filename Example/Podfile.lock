@@ -1,0 +1,24 @@
+PODS:
+  - BusBKit (0.1.0):
+    - YakerKit
+  - YakerKit (0.1.4)
+
+DEPENDENCIES:
+  - BusBKit (from `../`)
+  - YakerKit
+
+SPEC REPOS:
+  https://github.com/nadeal/geraSpecs.git:
+    - YakerKit
+
+EXTERNAL SOURCES:
+  BusBKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BusBKit: 6354bf8b730d89bcef258ea92200fd535f8e0cb3
+  YakerKit: cd8ce6ee09bcff5ee3863dcf69a7b02205bbbcda
+
+PODFILE CHECKSUM: aa7330e65ee58abf56321a85f8ad76ae82c269a6
+
+COCOAPODS: 1.10.1
