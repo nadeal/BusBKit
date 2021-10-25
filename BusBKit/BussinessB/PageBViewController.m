@@ -33,6 +33,9 @@
     [dismissBtn setTitle:@"Dismiss" forState:UIControlStateNormal];
     [self.view addSubview:dismissBtn];
     
+    NSString *getName = [ModuleModel sharedModuleModel].name;
+    NSLog(@"组件库内  底层单例对象 共享 name = %@", getName);
+    
 }
 
 - (void)onPopPage {
