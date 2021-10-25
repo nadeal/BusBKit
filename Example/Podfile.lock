@@ -1,5 +1,5 @@
 PODS:
-  - BusBKit (0.1.3):
+  - BusBKit (0.1.4):
     - YakerKit
   - YakerKit (0.1.4)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BusBKit: e929c550b7612e6e73b93fddc7f197c5763674eb
+  BusBKit: 025429828f265d98a309ad15bc351dd15b4a031a
   YakerKit: cd8ce6ee09bcff5ee3863dcf69a7b02205bbbcda
 
 PODFILE CHECKSUM: aa7330e65ee58abf56321a85f8ad76ae82c269a6

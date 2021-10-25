@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078F2999272659A800510853 /* PageSecondViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F2997272659A800510853 /* PageSecondViewController.h */; };
-		078F299A272659A800510853 /* PageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F2998272659A800510853 /* PageSecondViewController.m */; };
+		078F29A52726839B00510853 /* Target_ToPageB.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F29A32726839B00510853 /* Target_ToPageB.h */; };
+		078F29A62726839B00510853 /* Target_ToPageB.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F29A42726839B00510853 /* Target_ToPageB.m */; };
+		078F29AB272683E600510853 /* CTMediator+PageBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F29A7272683E600510853 /* CTMediator+PageBView.m */; };
+		078F29AC272683E600510853 /* CTMediator+PageBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F29A8272683E600510853 /* CTMediator+PageBView.h */; };
+		078F29AD272683E600510853 /* PageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F29A9272683E600510853 /* PageSecondViewController.m */; };
+		078F29AE272683E600510853 /* PageSecondViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F29AA272683E600510853 /* PageSecondViewController.h */; };
 		3D83495A8840ACD4DC3A4D2BF779CE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
 		414264D8594E1A96FC6256E50E05BAC6 /* PageBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A768DBD2C64D3337956DA626592C8AD2 /* PageBViewController.m */; };
 		416A163314CC794CA2E6BD87122F0588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
@@ -68,8 +72,12 @@
 /* Begin PBXFileReference section */
 		03ADAABEC9ED08261B781FD545BD90EF /* Pods_BusBKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusBKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		078F2997272659A800510853 /* PageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageSecondViewController.h; sourceTree = "<group>"; };
-		078F2998272659A800510853 /* PageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageSecondViewController.m; sourceTree = "<group>"; };
+		078F29A32726839B00510853 /* Target_ToPageB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_ToPageB.h; path = BusBKit/BussinessB/Target_ToPageB.h; sourceTree = "<group>"; };
+		078F29A42726839B00510853 /* Target_ToPageB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_ToPageB.m; path = BusBKit/BussinessB/Target_ToPageB.m; sourceTree = "<group>"; };
+		078F29A7272683E600510853 /* CTMediator+PageBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+PageBView.m"; path = "BusBKit/BussinessB/CTMediator+PageBView.m"; sourceTree = "<group>"; };
+		078F29A8272683E600510853 /* CTMediator+PageBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+PageBView.h"; path = "BusBKit/BussinessB/CTMediator+PageBView.h"; sourceTree = "<group>"; };
+		078F29A9272683E600510853 /* PageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageSecondViewController.m; path = BusBKit/BussinessB/PageSecondViewController.m; sourceTree = "<group>"; };
+		078F29AA272683E600510853 /* PageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageSecondViewController.h; path = BusBKit/BussinessB/PageSecondViewController.h; sourceTree = "<group>"; };
 		0C916D73160DB205AC4DEFA8E5A0F74C /* Pods-BusBKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusBKit_Example.modulemap"; sourceTree = "<group>"; };
 		1E94FF1FB2543D827067085934BD4FE5 /* BusBKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BusBKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		280DCED7E5C17221895C4BCA62E2076A /* BusBKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusBKit.debug.xcconfig; sourceTree = "<group>"; };
@@ -236,12 +244,16 @@
 		7B21D826822380FD2E64614568BDDB90 /* BusBKit */ = {
 			isa = PBXGroup;
 			children = (
-				078F2997272659A800510853 /* PageSecondViewController.h */,
-				078F2998272659A800510853 /* PageSecondViewController.m */,
+				078F29A8272683E600510853 /* CTMediator+PageBView.h */,
+				078F29A7272683E600510853 /* CTMediator+PageBView.m */,
+				078F29AA272683E600510853 /* PageSecondViewController.h */,
+				078F29A9272683E600510853 /* PageSecondViewController.m */,
 				68D79EFC229D69085F9A3ECB42637072 /* PageBViewController.h */,
 				A768DBD2C64D3337956DA626592C8AD2 /* PageBViewController.m */,
 				F89FCA6412252792EA26F7F9E2F6E608 /* Pod */,
 				18F6F4D504F2F670DF853856917572C4 /* Support Files */,
+				078F29A32726839B00510853 /* Target_ToPageB.h */,
+				078F29A42726839B00510853 /* Target_ToPageB.m */,
 			);
 			name = BusBKit;
 			path = ../..;
@@ -341,8 +353,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078F29AE272683E600510853 /* PageSecondViewController.h in Headers */,
+				078F29A52726839B00510853 /* Target_ToPageB.h in Headers */,
+				078F29AC272683E600510853 /* CTMediator+PageBView.h in Headers */,
 				4F9FB3993FD0F5D95F1C9997061EDB11 /* BusBKit-umbrella.h in Headers */,
-				078F2999272659A800510853 /* PageSecondViewController.h in Headers */,
 				E0C814E9A6ED1E87D300011B3CA8EB96 /* PageBViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,9 +538,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078F29AD272683E600510853 /* PageSecondViewController.m in Sources */,
+				078F29A62726839B00510853 /* Target_ToPageB.m in Sources */,
 				8902C5AB91E3A1DE7611AAD06E527A43 /* BusBKit-dummy.m in Sources */,
+				078F29AB272683E600510853 /* CTMediator+PageBView.m in Sources */,
 				414264D8594E1A96FC6256E50E05BAC6 /* PageBViewController.m in Sources */,
-				078F299A272659A800510853 /* PageSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
