@@ -6,6 +6,7 @@
 //
 
 #import "PageSecondViewController.h"
+#import <YakerKit/ModuleModel.h>
 
 @interface PageSecondViewController ()
 
@@ -22,7 +23,8 @@
     titleLabel.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:titleLabel];
     
-    
+    NSString *getName = [ModuleModel sharedModuleModel].name;
+    NSLog(@"组件库内  底层单例对象 共享 name = %@", getName);
     
 }
 
