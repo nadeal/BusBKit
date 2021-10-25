@@ -1,6 +1,0 @@
-framework module BusBKit {
-  umbrella header "BusBKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
