@@ -16,6 +16,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 40, 200, 45)];
+    titleLabel.text = @"组件BusBKit  Page  Second";
+    titleLabel.textColor = [UIColor blackColor];
+    titleLabel.font = [UIFont systemFontOfSize:15];
+    [self.view addSubview:titleLabel];
+    
+    
+    
 }
 
 /*
