@@ -7,6 +7,7 @@
 
 #import "PageBViewController.h"
 #import <YakerKit/InfoButton.h>
+#import <YakerKit/ModuleModel.h>
 @interface PageBViewController ()
 
 @end
